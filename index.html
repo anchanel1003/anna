@@ -1,0 +1,1832 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./style/css/main.css">
+    <link rel="stylesheet" href="./style/css/responsive.css">
+
+    <!-- Demo styles -->
+    <style>
+      body {
+        background: #fff;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        font-size: 18px;
+        /* background: #fff; */
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        /* align-items: center; */
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="figma">
+      <div class="header">
+          <div class="header-title">
+              <p>@annaeyeglasses · Cửa hàng kính râm & kính mắt</p>
+          </div>
+          <div class="header-navbar">
+              <div class="header-left">
+                  <div class="header-hover">
+                      <a href="#">Sản phẩm</a>
+                  </div>
+                  <div class="header-hover">
+                      <a href="#">Về Anna</a> 
+                  </div>
+                  <div class="header-hover">
+                      <a h ref="#">Blog</a>
+                  </div>
+              </div>
+              <div class="header-left-tablet">
+                  <a href="#">
+                      <img src="./style/img/Search results for Menu - Flaticon-2 1.png" alt="">
+                  </a>
+              </div>
+              <div class="header-img">
+                  <a href="#">
+                      <img src="./style/img/annna1.png" alt="">
+
+                  </a>
+              </div>
+              <div class="header-right">
+                  <div class="header-hover">
+                      <a href="#">Store</a>
+                  </div>
+                  <div class="header-right-img change-padding ">
+                      <a href="#">
+                          <img src="./style/img/Group.png" alt="">
+                      </a>
+                  </div>
+                  <div class="header-right-img hover-red">
+                      <div href="#">
+                          <img src="./style/img/Vector.png" alt="">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>     
+      <div class="slider-main">
+          <div class="elementor-background-overlay"></div>
+          <div class="slider1">
+              <div class="slider2">
+                  <div class="slider3">
+                      <div class="slider4">
+                          <div class="slider5">
+                              <div class="slider6">
+                                  <div class="slider7">
+                                      <div class="slider8">
+                                          <div class="slider8-img">
+                                              <img src="https://anna.phamvanchuong.com/wp-content/uploads/2022/06/Subtract.svg" alt=""
+                                              class="change-img8">
+                                          </div>
+                                      </div>
+                                      <div class="slider9">
+                                          <div class="slider9-h1">
+                                              <h1 class="slider9-title">KÍNH MẮT ANNA</h1>
+                                          </div>
+                                      </div>
+                                      <div class="slider10">
+                                          <div class="slider10-span">
+                                              <span class="slider10-title">Trải nghiệm tuyệt vời</span>
+                                          </div>
+                                      </div>
+                                      <div class="slider11">
+                                         <button>Tìm hiểu ngay</button>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <div class="contain-body">
+          <div class="content-header">
+              <div class="content-header-title">
+                  <p class="header-name">SEE BETTER THAN YESTERDAY</p>
+                  <p>>>></p>
+              </div>
+              <div class="content-header-title">
+                  <p class="header-name">SEE BETTER THAN YESTERDAY</p>
+                  <p>>>></p>
+              </div>
+              <div class="content-header-title nth3">
+                  <p class="header-name">SEE BETTER THAN YESTERDAY</p>
+                  <p>>>></p>
+              </div>
+              <div class="content-header-title">
+                  <p class="header-name">SEE BETTER THAN YESTERDAY</p>
+                  <p>>>></p>
+              </div>
+          </div>      
+          <div class="content1">
+              <div class="content-section-main">
+                  <div class="content1-top">
+                      <div class="content-section change-right30">
+                          <img class="section-img" src="./style/img/1234.png" alt="">
+                          <div class="img-content1-right">
+                              <p>GỌNG KÍNH</p>
+                              <img class="img-height-auto p15" src="./style/img/12345.png" alt="">
+                          </div>
+                      </div>
+                      <div class="content-section">
+                          <img class="section-img" src="./style/img/98.png" alt="">
+                          <div class="img-content1-right">
+                              <p>KÍNH RÂM</p>
+                              <img class="img-height-auto tablet-none" src="./style/img/02213.png" alt="">
+                              <img class="img-height-auto p15 p15-none" src="./style/img/12345.png" alt="">
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="content1-top change-top30">
+                      <div class="content-section change-right30">
+                          <img class="section-img" src="./style/img/0122222.png" alt="">
+                          <div class="img-content1-right">
+                              <p>TRÒNG KÍNH</p>
+                              <img class="img-height-auto tablet-none" src="./style/img/99.png" alt="">
+                              <img class="img-height-auto p15 p15-none" src="./style/img/12345.png" alt="">
+                          </div>
+                      </div>
+                      <div class="content-section">
+                          <img class="section-img" src="./style/img/70.png" alt="">
+                          <div class="img-content1-right">
+                              <p>PHỤ KIỆN</p>
+                              <img class="img-height-auto tablet-none" src="./style/img/69.png" alt="">
+                              <img class="img-height-auto p15 p15-none" src="./style/img/12345.png" alt="">
+                          </div>
+                      </div>
+                  </div>                   
+              </div>
+              <div class="content-flash">
+                  <div class="flash-left">
+                      <img src="./style/img/111.png" alt="">
+                      <p>FLASH SALE</p>
+                  </div>
+                  <div class="flash-right">
+                      <div class="flash-time">
+                          <p>Kết thúc sau</p>
+                      </div>
+                      <div class="flash-time flash-number">
+                          24
+                      </div>
+                      <span>:</span>
+                      <div class="flash-time flash-number">
+                          13
+                      </div>
+                      <span>:</span>
+                      <div class="flash-time flash-number">
+                          03
+                      </div>
+                  </div>
+              </div>
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="content-item p8-right-tablet c-6">
+                      <div class="item-img">
+                         <img src="./style/img/Rectangle 88.png" alt="">
+                         <div class="discount-item">50%</div>
+                      </div>
+                      <div class="name-glass">
+                      <p>GL - 380GL001</p>
+                      <div class="full-color">
+                          <div class="hinh-tron color1"></div>
+                          <div class="hinh-tron color2"></div>
+                          <div class="hinh-tron color3"></div>
+                          <div class="hinh-tron color4"></div>
+                          <div class="hinh-tron color5"></div>
+                      </div>
+                      </div>
+                      <div class="price-glass">
+                         <p>170.000 đ</p>
+                         <p>250.000 đ</p>
+                      </div>
+                      <div class="glass-level">
+                          <img src="./style/img/Group 9013.png" alt="">
+                      </div>
+                      <div class="number-glass">64 đã bán</div>
+                  </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="content-item p8-right-tablet c-6">
+                      <div class="item-img">
+                         <img src="./style/img/Rectangle 88.png" alt="">
+                         <div class="discount-item">50%</div>
+                      </div>
+                      <div class="name-glass">
+                      <p>GL - 380GL001</p>
+                      <div class="full-color">
+                          <div class="hinh-tron color1"></div>
+                          <div class="hinh-tron color2"></div>
+                          <div class="hinh-tron color3"></div>
+                          <div class="hinh-tron color4"></div>
+                          <div class="hinh-tron color5"></div>
+                      </div>
+                      </div>
+                      <div class="price-glass">
+                         <p>170.000 đ</p>
+                         <p>250.000 đ</p>
+                      </div>
+                      <div class="glass-level">
+                        <img src="./style/img/Group 9013.png" alt="">
+                      </div>
+                      <div class="number-glass">64 đã bán</div>
+                  </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="content-item p8-right-tablet c-6">
+                      <div class="item-img">
+                         <img src="./style/img/Rectangle 88.png" alt="">
+                         <div class="discount-item">50%</div>
+                      </div>
+                      <div class="name-glass">
+                      <p>GL - 380GL001</p>
+                      <div class="full-color">
+                          <div class="hinh-tron color1"></div>
+                          <div class="hinh-tron color2"></div>
+                          <div class="hinh-tron color3"></div>
+                          <div class="hinh-tron color4"></div>
+                          <div class="hinh-tron color5"></div>
+                      </div>
+                      </div>
+                      <div class="price-glass">
+                         <p>170.000 đ</p>
+                         <p>250.000 đ</p>
+                      </div>
+                      <div class="glass-level">
+                        <img src="./style/img/Group 9013.png" alt="">
+                      </div>
+                      <div class="number-glass">64 đã bán</div>
+                  </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="content-item p8-right-tablet c-6">
+                      <div class="item-img">
+                         <img src="./style/img/Rectangle 88.png" alt="">
+                         <div class="discount-item">50%</div>
+                      </div>
+                      <div class="name-glass">
+                      <p>GL - 380GL001</p>
+                      <div class="full-color">
+                          <div class="hinh-tron color1"></div>
+                          <div class="hinh-tron color2"></div>
+                          <div class="hinh-tron color3"></div>
+                          <div class="hinh-tron color4"></div>
+                          <div class="hinh-tron color5"></div>
+                      </div>
+                      </div>
+                      <div class="price-glass">
+                         <p>170.000 đ</p>
+                         <p>250.000 đ</p>
+                      </div>
+                      <div class="glass-level">
+                        <img src="./style/img/Group 9013.png" alt="">
+                      </div>
+                      <div class="number-glass">64 đã bán</div>
+                  </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="content-item p8-right-tablet c-6">
+                      <div class="item-img">
+                         <img src="./style/img/Rectangle 88.png" alt="">
+                         <div class="discount-item">50%</div>
+                      </div>
+                      <div class="name-glass">
+                      <p>GL - 380GL001</p>
+                      <div class="full-color">
+                          <div class="hinh-tron color1"></div>
+                          <div class="hinh-tron color2"></div>
+                          <div class="hinh-tron color3"></div>
+                          <div class="hinh-tron color4"></div>
+                          <div class="hinh-tron color5"></div>
+                      </div>
+                      </div>
+                      <div class="price-glass">
+                         <p>170.000 đ</p>
+                         <p>250.000 đ</p>
+                      </div>
+                      <div class="glass-level">
+                        <img src="./style/img/Group 9013.png" alt="">
+                      </div>
+                      <div class="number-glass">64 đã bán</div>
+                  </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="content-item p8-right-tablet c-6">
+                      <div class="item-img">
+                         <img src="./style/img/Rectangle 88.png" alt="">
+                         <div class="discount-item">50%</div>
+                      </div>
+                      <div class="name-glass">
+                      <p>GL - 380GL001</p>
+                      <div class="full-color">
+                          <div class="hinh-tron color1"></div>
+                          <div class="hinh-tron color2"></div>
+                          <div class="hinh-tron color3"></div>
+                          <div class="hinh-tron color4"></div>
+                          <div class="hinh-tron color5"></div>
+                      </div>
+                      </div>
+                      <div class="price-glass">
+                         <p>170.000 đ</p>
+                         <p>250.000 đ</p>
+                      </div>
+                      <div class="glass-level">
+                        <img src="./style/img/Group 9013.png" alt="">
+                      </div>
+                      <div class="number-glass">64 đã bán</div>
+                  </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="content-item p8-right-tablet c-6">
+                      <div class="item-img">
+                         <img src="./style/img/Rectangle 88.png" alt="">
+                         <div class="discount-item">50%</div>
+                         
+                      </div>
+                      <div class="name-glass">
+                      <p>GL - 380GL001</p>
+                      <div class="full-color">
+                          <div class="hinh-tron color1"></div>
+                          <div class="hinh-tron color2"></div>
+                          <div class="hinh-tron color3"></div>
+                          <div class="hinh-tron color4"></div>
+                          <div class="hinh-tron color5"></div>
+                      </div>
+                      </div>
+                      <div class="price-glass">
+                         <p>170.000 đ</p>
+                         <p>250.000 đ</p>
+                      </div>
+                      <div class="glass-level">
+                          <img src="./style/img/Group 9013.png" alt="">
+                      </div>
+                      <div class="number-glass">64 đã bán</div>
+                  </div>
+                  </div>
+                  <div class="swiper-slide">
+                      <div class="content-item p8-right-tablet c-6">
+                    <div class="item-img">
+                       <img src="./style/img/Rectangle 88.png" alt="">
+                       <div class="discount-item">50%</div>
+                       
+                    </div>
+                    <div class="name-glass">
+                    <p>GL - 380GL001</p>
+                    <div class="full-color">
+                        <div class="hinh-tron color1"></div>
+                        <div class="hinh-tron color2"></div>
+                        <div class="hinh-tron color3"></div>
+                        <div class="hinh-tron color4"></div>
+                        <div class="hinh-tron color5"></div>
+                    </div>
+                    </div>
+                    <div class="price-glass">
+                       <p>170.000 đ</p>
+                       <p>250.000 đ</p>
+                    </div>
+                    <div class="glass-level">
+                      <img src="./style/img/Group 9013.png" alt="">
+                    </div>
+                    <div class="number-glass">64 đã bán</div>
+                </div>
+                  </div>
+                  <div class="swiper-slide"> 
+                    <div class="content-item p8-right-tablet c-6">
+                    <div class="item-img">
+                       <img src="./style/img/Rectangle 88.png" alt="">
+                       <div class="discount-item">50%</div>
+                       
+                    </div>
+                    <div class="name-glass">
+                    <p>GL - 380GL001</p>
+                    <div class="full-color">
+                        <div class="hinh-tron color1"></div>
+                        <div class="hinh-tron color2"></div>
+                        <div class="hinh-tron color3"></div>
+                        <div class="hinh-tron color4"></div>
+                        <div class="hinh-tron color5"></div>
+                    </div>
+                    </div>
+                    <div class="price-glass">
+                       <p>170.000 đ</p>
+                       <p>250.000 đ</p>
+                    </div>
+                    <div class="glass-level">
+                      <img src="./style/img/Group 9013.png" alt="">
+                    </div>
+                    <div class="number-glass">64 đã bán</div>
+                </div>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                </div>
+          </div>
+          <div class="slider-main">
+            <div class="elementor-background-overlay"></div>
+            <div class="slider1">
+                <div class="slider2">
+                    <div class="slider3">
+                        <div class="slider4">
+                            <div class="slider5">
+                                <div class="slider6">
+                                    <div class="slider7">
+                                        <div class="slider8">
+                                            <div class="slider8-img">
+                                                <img src="https://anna.phamvanchuong.com/wp-content/uploads/2022/06/Subtract.svg" alt=""
+                                                class="change-img8">
+                                            </div>
+                                        </div>
+                                        <div class="slider9">
+                                            <div class="slider9-h1">
+                                                <h1 class="slider9-title">KÍNH MẮT ANNA</h1>
+                                            </div>
+                                        </div>
+                                        <div class="slider10">
+                                            <div class="slider10-span">
+                                                <span class="slider10-title">Trải nghiệm tuyệt vời</span>
+                                            </div>
+                                        </div>
+                                        <div class="slider11">
+                                           <button>Tìm hiểu ngay</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          <div class="content2">
+              <div class="content-new">
+                  <p class="product">SẢN PHẨM CỦA ANNA</p>
+                  <p class="new-product product-pc">SẢN PHẨM KÍNH MỚI NHẤT</p>
+                  <p class="new-product product-tablet">TẠI SAO NÊN CHỌN ANNA</p>
+                  <div class="types-of-glass">
+                      <div class="product1">
+                          <img src="./style/img/bottom-icon1-hover 2.png" alt="">
+                          <p>Kính cận</p>
+                      </div>
+                      <div class="product2">
+                          <img src="./style/img/bottom-icon1-hover 2.png" alt="">
+                          <p>Kính râm</p>
+                      </div>
+                      <div class="product3">
+                          <img src="./style/img/bottom-icon3 2.png" alt="">
+                          <p>Mắt kính</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="content-item p8-right-tablet c-6">
+                      <div class="item-img">
+                         <img src="./style/img/Rectangle 88.png" alt="">
+                         <div class="discount-item">50%</div>
+                      </div>
+                      <div class="name-glass">
+                      <p>GL - 380GL001</p>
+                      <div class="full-color">
+                          <div class="hinh-tron color1"></div>
+                          <div class="hinh-tron color2"></div>
+                          <div class="hinh-tron color3"></div>
+                          <div class="hinh-tron color4"></div>
+                          <div class="hinh-tron color5"></div>
+                      </div>
+                      </div>
+                      <div class="price-glass">
+                         <p>170.000 đ</p>
+                         <p>250.000 đ</p>
+                      </div>
+                      <div class="glass-level">
+                          <img src="./style/img/Group 9013.png" alt="">
+                      </div>
+                      <div class="number-glass">64 đã bán</div>
+                  </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="content-item p8-right-tablet c-6">
+                      <div class="item-img">
+                         <img src="./style/img/Rectangle 88.png" alt="">
+                         <div class="discount-item">50%</div>
+                      </div>
+                      <div class="name-glass">
+                      <p>GL - 380GL001</p>
+                      <div class="full-color">
+                          <div class="hinh-tron color1"></div>
+                          <div class="hinh-tron color2"></div>
+                          <div class="hinh-tron color3"></div>
+                          <div class="hinh-tron color4"></div>
+                          <div class="hinh-tron color5"></div>
+                      </div>
+                      </div>
+                      <div class="price-glass">
+                         <p>170.000 đ</p>
+                         <p>250.000 đ</p>
+                      </div>
+                      <div class="glass-level">
+                        <img src="./style/img/Group 9013.png" alt="">
+                      </div>
+                      <div class="number-glass">64 đã bán</div>
+                  </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="content-item p8-right-tablet c-6">
+                      <div class="item-img">
+                         <img src="./style/img/Rectangle 88.png" alt="">
+                         <div class="discount-item">50%</div>
+                      </div>
+                      <div class="name-glass">
+                      <p>GL - 380GL001</p>
+                      <div class="full-color">
+                          <div class="hinh-tron color1"></div>
+                          <div class="hinh-tron color2"></div>
+                          <div class="hinh-tron color3"></div>
+                          <div class="hinh-tron color4"></div>
+                          <div class="hinh-tron color5"></div>
+                      </div>
+                      </div>
+                      <div class="price-glass">
+                         <p>170.000 đ</p>
+                         <p>250.000 đ</p>
+                      </div>
+                      <div class="glass-level">
+                        <img src="./style/img/Group 9013.png" alt="">
+                      </div>
+                      <div class="number-glass">64 đã bán</div>
+                  </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="content-item p8-right-tablet c-6">
+                      <div class="item-img">
+                         <img src="./style/img/Rectangle 88.png" alt="">
+                         <div class="discount-item">50%</div>
+                      </div>
+                      <div class="name-glass">
+                      <p>GL - 380GL001</p>
+                      <div class="full-color">
+                          <div class="hinh-tron color1"></div>
+                          <div class="hinh-tron color2"></div>
+                          <div class="hinh-tron color3"></div>
+                          <div class="hinh-tron color4"></div>
+                          <div class="hinh-tron color5"></div>
+                      </div>
+                      </div>
+                      <div class="price-glass">
+                         <p>170.000 đ</p>
+                         <p>250.000 đ</p>
+                      </div>
+                      <div class="glass-level">
+                        <img src="./style/img/Group 9013.png" alt="">
+                      </div>
+                      <div class="number-glass">64 đã bán</div>
+                  </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="content-item p8-right-tablet c-6">
+                      <div class="item-img">
+                         <img src="./style/img/Rectangle 88.png" alt="">
+                         <div class="discount-item">50%</div>
+                      </div>
+                      <div class="name-glass">
+                      <p>GL - 380GL001</p>
+                      <div class="full-color">
+                          <div class="hinh-tron color1"></div>
+                          <div class="hinh-tron color2"></div>
+                          <div class="hinh-tron color3"></div>
+                          <div class="hinh-tron color4"></div>
+                          <div class="hinh-tron color5"></div>
+                      </div>
+                      </div>
+                      <div class="price-glass">
+                         <p>170.000 đ</p>
+                         <p>250.000 đ</p>
+                      </div>
+                      <div class="glass-level">
+                        <img src="./style/img/Group 9013.png" alt="">
+                      </div>
+                      <div class="number-glass">64 đã bán</div>
+                  </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="content-item p8-right-tablet c-6">
+                      <div class="item-img">
+                         <img src="./style/img/Rectangle 88.png" alt="">
+                         <div class="discount-item">50%</div>
+                      </div>
+                      <div class="name-glass">
+                      <p>GL - 380GL001</p>
+                      <div class="full-color">
+                          <div class="hinh-tron color1"></div>
+                          <div class="hinh-tron color2"></div>
+                          <div class="hinh-tron color3"></div>
+                          <div class="hinh-tron color4"></div>
+                          <div class="hinh-tron color5"></div>
+                      </div>
+                      </div>
+                      <div class="price-glass">
+                         <p>170.000 đ</p>
+                         <p>250.000 đ</p>
+                      </div>
+                      <div class="glass-level">
+                        <img src="./style/img/Group 9013.png" alt="">
+                      </div>
+                      <div class="number-glass">64 đã bán</div>
+                  </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="content-item p8-right-tablet c-6">
+                      <div class="item-img">
+                         <img src="./style/img/Rectangle 88.png" alt="">
+                         <div class="discount-item">50%</div>
+                         
+                      </div>
+                      <div class="name-glass">
+                      <p>GL - 380GL001</p>
+                      <div class="full-color">
+                          <div class="hinh-tron color1"></div>
+                          <div class="hinh-tron color2"></div>
+                          <div class="hinh-tron color3"></div>
+                          <div class="hinh-tron color4"></div>
+                          <div class="hinh-tron color5"></div>
+                      </div>
+                      </div>
+                      <div class="price-glass">
+                         <p>170.000 đ</p>
+                         <p>250.000 đ</p>
+                      </div>
+                      <div class="glass-level">
+                          <img src="./style/img/Group 9013.png" alt="">
+                      </div>
+                      <div class="number-glass">64 đã bán</div>
+                  </div>
+                  </div>
+                  <div class="swiper-slide"> <div class="content-item p8-right-tablet c-6">
+                    <div class="item-img">
+                       <img src="./style/img/Rectangle 88.png" alt="">
+                       <div class="discount-item">50%</div>
+                       
+                    </div>
+                    <div class="name-glass">
+                    <p>GL - 380GL001</p>
+                    <div class="full-color">
+                        <div class="hinh-tron color1"></div>
+                        <div class="hinh-tron color2"></div>
+                        <div class="hinh-tron color3"></div>
+                        <div class="hinh-tron color4"></div>
+                        <div class="hinh-tron color5"></div>
+                    </div>
+                    </div>
+                    <div class="price-glass">
+                       <p>170.000 đ</p>
+                       <p>250.000 đ</p>
+                    </div>
+                    <div class="glass-level">
+                      <img src="./style/img/Group 9013.png" alt="">
+                    </div>
+                    <div class="number-glass">64 đã bán</div>
+                </div></div>
+                  <div class="swiper-slide"> <div class="content-item p8-right-tablet c-6">
+                    <div class="item-img">
+                       <img src="./style/img/Rectangle 88.png" alt="">
+                       <div class="discount-item">50%</div>
+                       
+                    </div>
+                    <div class="name-glass">
+                    <p>GL - 380GL001</p>
+                    <div class="full-color">
+                        <div class="hinh-tron color1"></div>
+                        <div class="hinh-tron color2"></div>
+                        <div class="hinh-tron color3"></div>
+                        <div class="hinh-tron color4"></div>
+                        <div class="hinh-tron color5"></div>
+                    </div>
+                    </div>
+                    <div class="price-glass">
+                       <p>170.000 đ</p>
+                       <p>250.000 đ</p>
+                    </div>
+                    <div class="glass-level">
+                      <img src="./style/img/Group 9013.png" alt="">
+                    </div>
+                    <div class="number-glass">64 đã bán</div>
+                </div>
+                </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+              <div class="content2-btn">
+                  <button>Xem tất cả</button>
+              </div>
+          </div>
+          <div class="content3">
+              <div class="content-new">
+                  <p class="product product-best">SẢN PHẨM BEST SELLER</p>
+                  <p class="new-product change-new-color">SẢN PHẨM BÁN CHẠY NHẤT</p>
+              </div>
+              <div class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                    <div class="content-item">
+                        <div class="item-img item3-tablet">
+                            <img src="./style/img/Rectangle 125.png" alt="">
+                            <div class="discount-item">50%</div>
+                        </div>
+                        <div class="name-glass name-change">
+                        <p>GL - 380GL001</p>
+                        <div class="full-color">
+                            <div class="hinh-tron color1"></div>
+                            <div class="hinh-tron color2 change-color"></div>
+                            <div class="hinh-tron color3"></div>
+                            <div class="hinh-tron color4"></div>
+                            <div class="hinh-tron color5"></div>
+                        </div>
+                        </div>
+                        <div class="price-glass change-price">
+                            <p>170.000 đ</p>
+                            <p>250.000 đ</p>
+                        </div>
+                    </div>
+                    </div>
+        
+                    <div class="swiper-slide">
+                    <div class="content-item">
+                                <div class="item-img item3-tablet">
+                                   <img src="./style/img/Rectangle 125.png" alt="">
+                                   <div class="discount-item">50%</div>
+                                   
+                                </div>
+                                <div class="name-glass name-change">
+                                <p>GL - 380GL001</p>
+                                <div class="full-color">
+                                    <div class="hinh-tron color1"></div>
+                                    <div class="hinh-tron color2 change-color"></div>
+                                    <div class="hinh-tron color3"></div>
+                                    <div class="hinh-tron color4"></div>
+                                    <div class="hinh-tron color5"></div>
+                                </div>
+                                </div>
+                                <div class="price-glass change-price">
+                                   <p>170.000 đ</p>
+                                   <p>250.000 đ</p>
+                                </div>
+                    </div>
+                    </div>
+        
+                    <div class="swiper-slide">
+                    <div class="content-item">
+                                <div class="item-img item3-tablet">
+                                   <img src="./style/img/Rectangle 125.png" alt="">
+                                   <div class="discount-item">50%</div>
+                                  
+                                </div>
+                                <div class="name-glass name-change">
+                                <p>GL - 380GL001</p>
+                                <div class="full-color">
+                                    <div class="hinh-tron color1"></div>
+                                    <div class="hinh-tron color2 change-color"></div>
+                                    <div class="hinh-tron color3"></div>
+                                    <div class="hinh-tron color4"></div>
+                                    <div class="hinh-tron color5"></div>
+                                </div>
+                                </div>
+                                <div class="price-glass change-price">
+                                   <p>170.000 đ</p>
+                                   <p>250.000 đ</p>
+                                </div>
+                    </div>
+                    </div>
+                    <div class="swiper-slide">
+                    <div class="content-item">
+                                <div class="item-img item3-tablet">
+                                   <img src="./style/img/Rectangle 125.png" alt="">
+                                   <div class="discount-item">50%</div>
+                                   
+                                </div>
+                                <div class="name-glass name-change">
+                                <p>GL - 380GL001</p>
+                                <div class="full-color">
+                                    <div class="hinh-tron color1"></div>
+                                    <div class="hinh-tron color2 change-color"></div>
+                                    <div class="hinh-tron color3"></div>
+                                    <div class="hinh-tron color4"></div>
+                                    <div class="hinh-tron color5"></div>
+                                </div>
+                                </div>
+                                <div class="price-glass change-price">
+                                   <p>170.000 đ</p>
+                                   <p>250.000 đ</p>
+                                </div>
+                    </div>
+                    </div>
+                    <div class="swiper-slide">
+                    <div class="content-item">
+                                <div class="item-img item3-tablet">
+                                   <img src="./style/img/Rectangle 125.png" alt="">
+                                   <div class="discount-item">50%</div>
+                                  
+                                </div>
+                                <div class="name-glass name-change">
+                                <p>GL - 380GL001</p>
+                                <div class="full-color">
+                                    <div class="hinh-tron color1"></div>
+                                    <div class="hinh-tron color2 change-color"></div>
+                                    <div class="hinh-tron color3"></div>
+                                    <div class="hinh-tron color4"></div>
+                                    <div class="hinh-tron color5"></div>
+                                </div>
+                                </div>
+                                <div class="price-glass change-price">
+                                   <p>170.000 đ</p>
+                                   <p>250.000 đ</p>
+                                </div>
+                    </div>
+                    </div>
+                    <div class="swiper-slide">
+                    <div class="content-item">
+                                <div class="item-img item3-tablet">
+                                   <img src="./style/img/Rectangle 125.png" alt="">
+                                   <div class="discount-item">50%</div>
+                                  
+                                </div>
+                                <div class="name-glass name-change">
+                                <p>GL - 380GL001</p>
+                                <div class="full-color">
+                                    <div class="hinh-tron color1"></div>
+                                    <div class="hinh-tron color2 change-color"></div>
+                                    <div class="hinh-tron color3"></div>
+                                    <div class="hinh-tron color4"></div>
+                                    <div class="hinh-tron color5"></div>
+                                </div>
+                                </div>
+                                <div class="price-glass change-price">
+                                   <p>170.000 đ</p>
+                                   <p>250.000 đ</p>
+                                </div>
+                    </div>
+                    </div>
+                    <div class="swiper-slide">
+                    <div class="content-item">
+                                <div class="item-img item3-tablet">
+                                   <img src="./style/img/Rectangle 125.png" alt="">
+                                   <div class="discount-item">50%</div>
+                                  
+                                </div>
+                                <div class="name-glass name-change">
+                                <p>GL - 380GL001</p>
+                                <div class="full-color">
+                                    <div class="hinh-tron color1"></div>
+                                    <div class="hinh-tron color2 change-color"></div>
+                                    <div class="hinh-tron color3"></div>
+                                    <div class="hinh-tron color4"></div>
+                                    <div class="hinh-tron color5"></div>
+                                </div>
+                                </div>
+                                <div class="price-glass change-price">
+                                   <p>170.000 đ</p>
+                                   <p>250.000 đ</p>
+                                </div>
+                    </div>
+                    </div>
+                    
+                    
+        
+                </div>
+                        <div class="swiper-button-next change-next1"></div>
+                        <div class="swiper-button-prev change-next1"></div>
+                        <div class="swiper-pagination"></div>
+                </div>
+          </div>
+          <div class="content4">
+              <div class="content4-img">
+                  <img src="./style/img/image 23.png" alt="">
+              </div>
+              <div class="content4-descreption">
+                  <p class="content-shopping">MUA SẮM PHÙ HỢP VỚI BẠN</p>
+                  <div class="content4-title">
+                      <div class="content4-title1">
+                          <p>Dạng khuôn mặt</p>
+                      </div>
+                      <div class="content4-title2">
+                          <p>Hình dạng khung</p>
+                      </div>
+                      <div class="content4-title3">
+                         <p>Màu sắc</p>
+                      </div>
+                  </div>
+                  <div class="content4-face">
+                      <div class="content-detail-face">
+                          <img src="./style/img/face1.png" alt="">
+                          <p>Hình trái xoan</p>
+                      </div>
+                      <div class="content-detail-face">
+                          <img src="./style/img/face2.png" alt="">
+                          <p>Hình vuông</p>
+                      </div>
+                      <div class="content-detail-face change-face">
+                          <img class="face1" src="./style/img/face3.png" alt="">
+                          <p>Hình kim cương</p>
+                      </div>
+                  </div>
+                  <div class="content4-face2">
+                      <div class="content-detail-face">
+                          <img src="./style/img/face4.png" alt="">
+                          <p>Hình tròn</p>
+                      </div>
+                      <div class="content-detail-face">
+                          <img class="face5" src="./style/img/face5.png" alt="">
+                          <p>Hình trái tim</p>
+                      </div>
+                      <div class="content-detail-face change-face">
+                          <img src="./style/img/face6.png" alt="">
+                          <p>Hình tam giác</p>
+                      </div>
+                  </div>
+                  <p class="content4-tablet">Bạn không biết hình dạng khuôn mặt bạn ? <br><span>Kiểm tra ngay</span></p>
+              </div>
+          </div>
+          <div class="content5">
+              <div class="content5-title">
+                  <p>TRA CỨU</p>
+                  <p>LÀM THẾ NÀO ĐỂ CÓ MỘT CẶP KÍNH HOÀN HẢO</p>
+              </div>
+              <div class="content5-detail">
+                  <div class="content5-img content5-change-img">
+                      <img src="./style/img/Rectangle 37.png" alt="">
+                  </div>
+                  <div class="content5-descreption">
+                      <p>KÍCH THƯỚC KHUNG</p>
+                      <div class="content5-img change-auto">
+                          <img src="./style/img/Group1.png" alt="">
+                      </div>
+                      <p class="content5-text">Lựa chọn Kích thước khung phù hợp nhất để giúp dễ dàng vừa vặn, thoải mái và tiện lợi cho bạn.</p>
+                      <p>Cách đo kích thước khung hình của bạn</p>
+                  </div>
+              </div>
+              <div class="content5-detail change-detail">
+                  <div class="content5-descreption change-content5">
+                      <p>ỐNG KÍNH</p>
+                      <div class="content5-img change-img">
+                          <img src="./style/img/Group 8981.png" alt="">
+                      </div>
+                      <p class="content5-text">Chúng tôi sẽ giới thiệu các loại ống kính tốt nhất dựa trên đơn thuốc của bạn. Để đặt mua kính, bạn cũng sẽ cần Khoảng cách đồng tử (PD).</p>
+                      <p>Cách đo kích thước PD của bạn</p>
+                  </div>
+                  <div class="content5-img content5-change-img">
+                      <img src="./style/img/Rectangle 38.png" alt="">
+                  </div>
+              </div>
+          </div>
+          <div class="slider-main">
+            <div class="elementor-background-overlay"></div>
+            <div class="slider1">
+                <div class="slider2">
+                    <div class="slider3">
+                        <div class="slider4">
+                            <div class="slider5">
+                                <div class="slider6">
+                                    <div class="slider7">
+                                        <div class="slider8">
+                                            <div class="slider8-img">
+                                                <img src="https://anna.phamvanchuong.com/wp-content/uploads/2022/06/Subtract.svg" alt=""
+                                                class="change-img8">
+                                            </div>
+                                        </div>
+                                        <div class="slider9">
+                                            <div class="slider9-h1">
+                                                <h1 class="slider9-title">KÍNH MẮT ANNA</h1>
+                                            </div>
+                                        </div>
+                                        <div class="slider10">
+                                            <div class="slider10-span">
+                                                <span class="slider10-title">Trải nghiệm tuyệt vời</span>
+                                            </div>
+                                        </div>
+                                        <div class="slider11">
+                                           <button>Tìm hiểu ngay</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          <div class="content7">
+              <div class="content5-title content7-mobile">
+                  <p>HỆ THỐNG ANNA</p>
+                  <p>TRẢI NGHIỆM SHOWROOM</p>
+              </div>
+              <div class="content7-img">
+                  <div class="content7-left">
+                      <img src="./style/img/Rectangle 31.png" alt="">
+                  </div>
+                  <div class="content7-right">
+                      <div class="content-right-top change-content-right">
+                          <img class="change-p16" src="./style/img/Rectangle 32.png" alt="">
+                          <img src="./style/img/Rectangle 34.png" alt="">
+                      </div>
+                      <div class="content-right-top">
+                          <img class="change-p16" src="./style/img/Rectangle 33.png" alt="">
+                          <img src="./style/img/Rectangle 35.png" alt="">
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="content8">
+              <div class="content5-title change-content8">
+                  <p>TIN TỨC</p>
+                  <p>TIN TỨC MỚI NHẤT</p>
+              </div>
+              
+            <div class="swiper mySwiper1">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide">
+            <div class="content-item item8">
+                    <div class="item-img">
+                        <img src="./style/img/Rectangle 42.png" alt="">
+                        <div class="item-img-absoulute">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <p>2/3/2022</p>
+                        </div>
+                    </div>
+                    <div class="content8-title">
+                        <a href="#">Đừng bỏ lỡ địa điểm check in Giáng sinh siêu hot 2022</a href="#">
+                    </div>
+                    <p class="content8-detail">Mùa Noel 2021 đang đến bạn đã biết đi đâu chơi cùng những người yêu thương của mình chưa?</p>   
+                    <div class="content8-comment">
+                        <div class="content8-user">
+                            <img src="./style/img/user 1.png" alt="">
+                            <p>By OKhub</p>
+                        </div>
+                        <div class="contentent8-message">
+                            <img src="./style/img/user 2.png" alt="">
+                            <p>Comments 04</p>
+                        </div>
+                    </div>                   
+                </div>
+            </div>
+            <div class="swiper-slide">
+            <div class="content-item item8 change-margin-item8">
+                    <div class="item-img">
+                        <img src="./style/img/Rectangle 43.png" alt="">
+                        <div class="item-img-absoulute">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <p>2/3/2022</p>
+                        </div>
+                    </div>
+                    <div class="content8-title">
+                        <a href="#">Đừng bỏ lỡ địa điểm check in Giáng sinh siêu hot 2022</a href="#">
+                    </div>
+                    <p class="content8-detail">Mùa Noel 2021 đang đến bạn đã biết đi đâu chơi cùng những người yêu thương của mình chưa?</p>        
+                    <div class="content8-comment">
+                        <div class="content8-user">
+                            <img src="./style/img/user 1.png" alt="">
+                            <p>By OKhub</p>
+                        </div>
+                        <div class="contentent8-message">
+                            <img src="./style/img/user 2.png" alt="">
+                            <p>Comments 04</p>
+                        </div>
+                    </div>                   
+                </div>
+            </div>
+            <div class="swiper-slide">
+            <div class="content-item item8">
+                    <div class="item-img">
+                        <img src="./style/img/Rectangle 44.png" alt="">
+                        <div class="item-img-absoulute">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <p>2/3/2022</p>
+                        </div>
+                    </div>
+                    <div class="content8-title">
+                        <a href="#">Đừng bỏ lỡ địa điểm check in Giáng sinh siêu hot 2022</a href="#">
+                    </div>
+                    <p class="content8-detail">Mùa Noel 2021 đang đến bạn đã biết đi đâu chơi cùng những người yêu thương của mình chưa?</p>  
+                    <div class="content8-comment">
+                        <div class="content8-user">
+                            <img src="./style/img/user 1.png" alt="">
+                            <p>By OKhub</p>
+                        </div>
+                        <div class="contentent8-message">
+                            <img src="./style/img/user 2.png" alt="">
+                            <p>Comments 04</p>
+                        </div>
+                    </div>                   
+                </div>
+            </div>
+            <div class="swiper-slide">
+            <div class="content-item item8">
+                    <div class="item-img">
+                        <img src="./style/img/Rectangle 42.png" alt="">
+                        <div class="item-img-absoulute">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <p>2/3/2022</p>
+                        </div>
+                    </div>
+                    <div class="content8-title">
+                        <a href="#">Đừng bỏ lỡ địa điểm check in Giáng sinh siêu hot 2022</a href="#">
+                    </div>
+                    <p class="content8-detail">Mùa Noel 2021 đang đến bạn đã biết đi đâu chơi cùng những người yêu thương của mình chưa?</p>   
+                    <div class="content8-comment">
+                        <div class="content8-user">
+                            <img src="./style/img/user 1.png" alt="">
+                            <p>By OKhub</p>
+                        </div>
+                        <div class="contentent8-message">
+                            <img src="./style/img/user 2.png" alt="">
+                            <p>Comments 04</p>
+                        </div>
+                    </div>                   
+                </div>
+            </div>
+            <div class="swiper-slide">
+            <div class="content-item item8 change-margin-item8">
+                    <div class="item-img">
+                        <img src="./style/img/Rectangle 43.png" alt="">
+                        <div class="item-img-absoulute">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <p>2/3/2022</p>
+                        </div>
+                    </div>
+                    <div class="content8-title">
+                        <a href="#">Đừng bỏ lỡ địa điểm check in Giáng sinh siêu hot 2022</a href="#">
+                    </div>
+                    <p class="content8-detail">Mùa Noel 2021 đang đến bạn đã biết đi đâu chơi cùng những người yêu thương của mình chưa?</p>        
+                    <div class="content8-comment">
+                        <div class="content8-user">
+                            <img src="./style/img/user 1.png" alt="">
+                            <p>By OKhub</p>
+                        </div>
+                        <div class="contentent8-message">
+                            <img src="./style/img/user 2.png" alt="">
+                            <p>Comments 04</p>
+                        </div>
+                    </div>                   
+                </div>
+            </div>
+            <div class="swiper-slide">
+            <div class="content-item item8">
+                    <div class="item-img">
+                        <img src="./style/img/Rectangle 44.png" alt="">
+                        <div class="item-img-absoulute">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <p>2/3/2022</p>
+                        </div>
+                    </div>
+                    <div class="content8-title">
+                        <a href="#">Đừng bỏ lỡ địa điểm check in Giáng sinh siêu hot 2022</a href="#">
+                    </div>
+                    <p class="content8-detail">Mùa Noel 2021 đang đến bạn đã biết đi đâu chơi cùng những người yêu thương của mình chưa?</p>  
+                    <div class="content8-comment">
+                        <div class="content8-user">
+                            <img src="./style/img/user 1.png" alt="">
+                            <p>By OKhub</p>
+                        </div>
+                        <div class="contentent8-message">
+                            <img src="./style/img/user 2.png" alt="">
+                            <p>Comments 04</p>
+                        </div>
+                    </div>                   
+                </div>
+            </div>
+            <div class="swiper-slide">
+            <div class="content-item item8">
+                    <div class="item-img">
+                        <img src="./style/img/Rectangle 42.png" alt="">
+                        <div class="item-img-absoulute">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <p>2/3/2022</p>
+                        </div>
+                    </div>
+                    <div class="content8-title">
+                        <a href="#">Đừng bỏ lỡ địa điểm check in Giáng sinh siêu hot 2022</a href="#">
+                    </div>
+                    <p class="content8-detail">Mùa Noel 2021 đang đến bạn đã biết đi đâu chơi cùng những người yêu thương của mình chưa?</p>   
+                    <div class="content8-comment">
+                        <div class="content8-user">
+                            <img src="./style/img/user 1.png" alt="">
+                            <p>By OKhub</p>
+                        </div>
+                        <div class="contentent8-message">
+                            <img src="./style/img/user 2.png" alt="">
+                            <p>Comments 04</p>
+                        </div>
+                    </div>                   
+                </div>
+            </div>
+            <div class="swiper-slide">
+            <div class="content-item item8 change-margin-item8">
+                    <div class="item-img">
+                        <img src="./style/img/Rectangle 43.png" alt="">
+                        <div class="item-img-absoulute">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <p>2/3/2022</p>
+                        </div>
+                    </div>
+                    <div class="content8-title">
+                        <a href="#">Đừng bỏ lỡ địa điểm check in Giáng sinh siêu hot 2022</a href="#">
+                    </div>
+                    <p class="content8-detail">Mùa Noel 2021 đang đến bạn đã biết đi đâu chơi cùng những người yêu thương của mình chưa?</p>        
+                    <div class="content8-comment">
+                        <div class="content8-user">
+                            <img src="./style/img/user 1.png" alt="">
+                            <p>By OKhub</p>
+                        </div>
+                        <div class="contentent8-message">
+                            <img src="./style/img/user 2.png" alt="">
+                            <p>Comments 04</p>
+                        </div>
+                    </div>                   
+                </div>
+            </div>
+            <div class="swiper-slide">
+            <div class="content-item item8">
+                    <div class="item-img">
+                        <img src="./style/img/Rectangle 44.png" alt="">
+                        <div class="item-img-absoulute">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <p>2/3/2022</p>
+                        </div>
+                    </div>
+                    <div class="content8-title">
+                        <a href="#">Đừng bỏ lỡ địa điểm check in Giáng sinh siêu hot 2022</a href="#">
+                    </div>
+                    <p class="content8-detail">Mùa Noel 2021 đang đến bạn đã biết đi đâu chơi cùng những người yêu thương của mình chưa?</p>  
+                    <div class="content8-comment">
+                        <div class="content8-user">
+                            <img src="./style/img/user 1.png" alt="">
+                            <p>By OKhub</p>
+                        </div>
+                        <div class="contentent8-message">
+                            <img src="./style/img/user 2.png" alt="">
+                            <p>Comments 04</p>
+                        </div>
+                    </div>                   
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next change-next1"></div>
+        <div class="swiper-button-prev change-next1"></div>
+        <div class="swiper-pagination"></div>
+            </div>
+          </div>
+          <div class="content9">
+              <div class="content5-title change-content9">
+                  <p class="change-color-tablet">THEO DÕI ANNA</p>
+              </div>
+              <div class="content9-detail">
+                  <div class="content9-detail-left">
+                      <div class="content9-title">
+                          <div class="title-left">
+                              <div class="title-img">
+                                  <img src="./style/img/a11.png" alt="">
+                              </div>
+                              <div class="title-descreption">
+                                  <p>Kính mắt Anna</p>
+                                  <p>322k lượt thích</p>
+                              </div>
+                          </div>
+                          <div class="title-right">
+                              <div class="title-fb">
+                                  <i class="fa-brands fa-facebook-f"></i>
+                                  <p>Fanpage</p>
+                              </div>
+                              <div class="title-shoppe">
+                                  <img src="./style/img/Group 9102.png" alt="">
+                              </div>
+                          </div>
+                      </div>
+                      <div class="content9-descreption">
+                          <div class="descreption-left">
+                              <div class="title-left change-margin">
+                                  <div class="title-img">
+                                      <img src="./style/img/a11.png" alt="">
+                                  </div>
+                                  <div class="title-descreption">
+                                      <p>Kính mắt Anna</p>
+                                      <div class="descreption-online">
+                                          <span class="time-online">12 giờ</span>
+                                          <img src="./style/img/1003.png" alt="">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="descreption-detail">
+                                  <p>Xin chào Đà Nẵng 🎉<br> Anna Eyeglasses is coming soon… ✌<br>Các bạn Đà Nẵng ơi cho Na thấy cánh tay của bạn nha. Na… <b>Xem thêm</b></p>
+                              </div>
+                              <div class="descreption-img">
+                                  <div class="img-left">
+                                      <img src="./style/img/Rectangle 54.png" alt="">
+                                  </div>
+                                  <div class="img-right">
+                                      <img src="./style/img/Rectangle 55.png" alt="">
+                                  </div>
+                              </div>
+                              <div class="descreption-icon">
+                                  <div class="descreption-like">
+                                      <div class="like-img">
+                                          <i class="fa-regular fa-thumbs-up"></i>
+                                      </div>
+                                      <p>100k thích</p>
+                                  </div>
+                                  <div class="descreption-share">
+                                      <div class="share-img">
+                                          <i class="fa-solid fa-share-nodes"></i>
+                                      </div>
+                                      <p>38k chia sẻ</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="content9-footer">
+                          <p>Tìm kiếm chúng tôi trên facebook</p>
+                      </div>
+                  </div>
+                  <div class="content9-detail-right">
+                      <div class="content9-title">
+                          <div class="title-left">
+                              <div class="title-img">
+                                  <img src="./style/img/a11.png" alt="">
+                              </div>
+                              <div class="title-descreption">
+                                  <p>kinhmatanna</p>
+                                  <p>69,3k người theo dõi</p>
+                              </div>
+                          </div>
+                          <div class="title-right">
+                              <div class="title-fb title-instagram">
+                                  <i class="fa-brands fa-instagram"></i>
+                                  <p>Intagram</p>
+                              </div>
+                              <div class="title-shoppe title-tiktok">
+                                  <i class="fa-brands fa-tiktok"></i>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="content9-descreption">
+                          <div class="descreption-left">
+                              <div class="title-left">
+                                  <div class="title-img">
+                                      <img src="./style/img/a11.png" alt="">
+                                  </div>
+                                  <div class="title-descreption">
+                                      <p>kinhmatanna</p>
+                                      <div class="descreption-online change-online-color">
+                                          <img src="./style/img/Ellipse 57.png" alt="">
+                                          <span>Theo dõi</span>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="descreption-img padding-img">
+                                  <div class="img-left change-img1">
+                                      <img src="./style/img/image 24.png" alt="">
+                                  </div>
+                                  <div class="img-right change-img2">
+                                      <img src="./style/img/image 25.png" alt="">
+                                  </div>
+                              </div>
+                              <div class="descreption-right-like">
+                                  <i class="fa-solid fa-heart"></i>
+                                  <i class="fa-regular fa-paper-plane"></i>
+                              </div>
+                              <p class="number-liked">40 lượt thích</p>
+                              <p class="save-number"><b>kinhmatanna</b> Lưu số Na đi, khi nào bồ có cần kính xinh thì gọi cho tui... <b>xem thêm</b></p>
+                          </div>
+                      </div>
+                      <div class="content9-footer">
+                          <p>Tìm kiếm chúng tôi trên facebook</p>
+                      </div>
+                  </div>        
+              </div>
+          </div>
+          <div class="content10">
+              <div class="content5-title change-content10">
+                  <p class="change10-color-tablet">KHÁCH HÀNG</p>
+                  <p>KHÁCH HÀNG CỦA ANNA</p>
+              </div>
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                  <div class="item-customer">
+                        <img src="./style/img/Rectangle 138.png" alt="">
+                        <div class="content10-backdrop-filter">
+                            <p class="content10-name">Trâm Anh</p>
+                            <div class="content10-adress">
+                                <p>Hà Nội</p>
+                                <p>23 tuổi</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                  <div class="item-customer">
+                        <img src="./style/img/Rectangle 138.png" alt="">
+                        <div class="content10-backdrop-filter">
+                            <p class="content10-name">Trâm Anh</p>
+                            <div class="content10-adress">
+                                <p>Hà Nội</p>
+                                <p>23 tuổi</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                  <div class="item-customer">
+                        <img src="./style/img/Rectangle 138.png" alt="">
+                        <div class="content10-backdrop-filter">
+                            <p class="content10-name">Trâm Anh</p>
+                            <div class="content10-adress">
+                                <p>Hà Nội</p>
+                                <p>23 tuổi</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                  <div class="item-customer">
+                        <img src="./style/img/Rectangle 138.png" alt="">
+                        <div class="content10-backdrop-filter">
+                            <p class="content10-name">Trâm Anh</p>
+                            <div class="content10-adress">
+                                <p>Hà Nội</p>
+                                <p>23 tuổi</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                  <div class="item-customer">
+                        <img src="./style/img/Rectangle 138.png" alt="">
+                        <div class="content10-backdrop-filter">
+                            <p class="content10-name">Trâm Anh</p>
+                            <div class="content10-adress">
+                                <p>Hà Nội</p>
+                                <p>23 tuổi</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                  <div class="item-customer">
+                        <img src="./style/img/Rectangle 138.png" alt="">
+                        <div class="content10-backdrop-filter">
+                            <p class="content10-name">Trâm Anh</p>
+                            <div class="content10-adress">
+                                <p>Hà Nội</p>
+                                <p>23 tuổi</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                  <div class="item-customer">
+                        <img src="./style/img/Rectangle 138.png" alt="">
+                        <div class="content10-backdrop-filter">
+                            <p class="content10-name">Trâm Anh</p>
+                            <div class="content10-adress">
+                                <p>Hà Nội</p>
+                                <p>23 tuổi</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="item-customer">
+                          <img src="./style/img/Rectangle 138.png" alt="">
+                          <div class="content10-backdrop-filter">
+                              <p class="content10-name">Trâm Anh</p>
+                              <div class="content10-adress">
+                                  <p>Hà Nội</p>
+                                  <p>23 tuổi</p>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item-customer">
+                              <img src="./style/img/Rectangle 138.png" alt="">
+                              <div class="content10-backdrop-filter">
+                                  <p class="content10-name">Trâm Anh</p>
+                                  <div class="content10-adress">
+                                      <p>Hà Nội</p>
+                                      <p>23 tuổi</p>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                </div>
+                <div class="swiper-button-next change-next"></div>
+                <div class="swiper-button-prev change-next"></div>
+                <div class="swiper-pagination"></div>
+                </div>
+          </div>
+          <div class="content11">
+              <div class="content11-title">
+                  <div class="content11-hyphen"></div>
+                  <p class="content11-name">HỎI ĐÁP</p>
+              </div>
+              <p class="content11-descreption">Q & A CÙNG ANNA</p>
+              <div class="content11-question">
+                  <div class="question-left change-face">
+                      <div class="question1">
+                          <div class="question-aditional">
+                              <div class="question-descreption">Màu của kính râm có ảnh hưởng tới chống tia cực tím không ?</div>
+                              <div class="question-img">
+                                  <i class="fa-solid fa-minus"></i>                                </div>
+                          </div>
+                          <p>Màu sắc của tròng kính cũng không ảnh hưởng đến khả năng bảo vệ mắt khỏi ánh sáng tia cực tím. Nên màu của kính râm hoàn không ảnh hưởng đến việc chống tia cực tím.</p>
+                      </div>
+                      <div class="question1">
+                          <div class="question-aditional">
+                              <div class="question-descreption">Vừa loạn vừa cận có cắt tròng đổi màu được không ?</div>
+                              <div class="question-img">
+                                  <i class="fa-solid fa-plus"></i>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="question1">
+                          <div class="question-aditional">
+                              <div class="question-descreption">Màu của kính râm có ảnh hưởng tới chống tia cực tím không ?</div>
+                              <div class="question-img">
+                                  <i class="fa-solid fa-plus"></i>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="question-right">
+                      <div class="question1">
+                          <div class="question-aditional">
+                              <div class="question-descreption">Cho em xin chi phí đo mắt bên mình nhé ?</div>
+                              <div class="question-img">
+                                  <i class="fa-solid fa-plus"></i>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="question1">
+                          <div class="question-aditional">
+                              <div class="question-descreption">Mặt tròn bự thì đeo kính gì đẹp ạ ?</div>
+                              <div class="question-img">
+                                  <i class="fa-solid fa-plus"></i>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="question1">
+                          <div class="question-aditional">
+                              <div class="question-descreption">Màu của kính râm có ảnh hưởng tới chống tia cực tím không ?</div>
+                              <div class="question-img">
+                                  <i class="fa-solid fa-plus"></i>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="content12">
+              <div class="content12-item change-item12-margin">
+                  <img src="./style/img/image 22.png" alt="">
+              </div>
+              <div class="cotent12-item-right">
+                  <div class="content12-right1">
+                      <div class="content12-item">
+                          <div class="content12-detail">
+                              <img src="./style/img/01.png" alt="">
+                              <p>Chính sách bảo hành</p>
+                          </div>
+                      </div>
+                      <div class="content12-item change-padding-icon">
+                          <div class="content12-detail">
+                              <img src="./style/img/02.png" alt="">
+                              <p>Khám mắt miễn phí</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="content12-right1">
+                      <div class="content12-item change-right">
+                          <div class="content12-detail">
+                              <img src="./style/img/04.png" alt="">
+                              <p>Vệ sinh & bảo quản kính mắt</p>
+                          </div>
+                      </div>
+                      <div class="content12-item">
+                          <div class="content12-detail change12-margin">
+                              <img src="./style/img/03.png" alt="">
+                              <p>Thu cũ đổi mới</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+    </div>
+
+      <div class="footer">
+          <div class="footer-name-product">
+              <div class="footer-policy">
+                  <p>Tất cả sản phẩm</p>
+                  <p>Gọng kính</p>
+                  <p>Tròng kính</p>
+                  <p>Kính râm</p>
+                  <p>Phụ kiện</p>
+              </div>
+              <div class="footer-policy">
+                  <p>Chính sách mua hàng</p>
+                  <p>Hình thức thanh toá<n></n></p>
+                  <p>Chính sách giao hàng</p>
+                  <p>Chính sách bảo hành</p>
+              </div>
+              <div class="footer-policy">
+                  <p>Thông tin liên hệ</p>
+                  <p>Điện thoại: 0982.085.886</p>
+                  <p>Email: tuyendung@kinhmatanna.com</p>
+                  <p>Website: kinhmatanna.com</p>
+                  <div class="footer-socials">
+                      <div class="soical-item">
+                          <i class="fa-brands fa-tiktok"></i>
+                      </div>
+                      <div class="soical-item">
+                          <i class="fa-brands fa-instagram"></i>
+                      </div>
+                      <div class="soical-item social-shoppe">
+                          <img src="./style/img/Group 9103.png" alt="">
+                      </div>
+                      <div class="soical-item">
+                          <i class="fa-brands fa-tiktok"></i>
+                      </div>
+                  </div>
+              </div>
+              <div class="footer-policy">
+                  <p>Về Anna</p>
+                  <p>Mã số thuế</p>
+              </div>
+          </div>
+          <div class="footer-end">
+              <p>© 2022 annaeyeglasses. Powered by OkHub Việt Nam.</p>
+          </div>
+      </div>
+  </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 5,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        
+        breakpoints: {
+	  0: {
+		slidesPerView: 1,
+		spaceBetween: 20,
+	  },
+	 739: {
+		slidesPerView: 2,
+		spaceBetween: 40,
+	  },
+	 1024: {
+		slidesPerView: 3,
+		spaceBetween: 40,
+	  },
+	 1280: {
+		slidesPerView: 4,
+		spaceBetween: 50,
+	  },
+      1500: {
+		slidesPerView: 5,
+		spaceBetween: 50,
+	  },
+	} 
+      });
+
+      var swiper = new Swiper(".mySwiper1", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        breakpoints: {
+        0: {
+		slidesPerView: 1,
+		spaceBetween: 20,
+	  },
+	 739: {
+		slidesPerView: 2,
+		spaceBetween: 40,
+	  },
+	 1024: {
+		slidesPerView: 3,
+		spaceBetween: 40,
+	  },
+	 1280: {
+		slidesPerView: 4,
+		spaceBetween: 50,
+	  },
+	} 
+      });
+
+      var swiper = new Swiper(".mySwiper2", {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        breakpoints: {
+        0: {
+		slidesPerView: 1,
+		spaceBetween: 20,
+	  },
+	 739: {
+		slidesPerView: 2,
+		spaceBetween: 40,
+	  },
+	 1024: {
+		slidesPerView: 3,
+		spaceBetween: 40,
+	  },
+	 1280: {
+		slidesPerView: 4,
+		spaceBetween: 50,
+	  },
+	} 
+      });
+
+      
+    </script>
+  </body>
+</html>
+
+
+
+
