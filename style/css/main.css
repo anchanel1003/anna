@@ -893,10 +893,11 @@ img{
 .content-detail-face img{
     width: auto;
     height:auto;
+    filter: grayscale(100%);
 }
 
 .content-detail-face img:hover{
-    filter: grayscale(100%);
+    filter: none;    
 }
 
 .content-detail-face p{

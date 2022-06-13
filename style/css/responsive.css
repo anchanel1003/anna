@@ -184,6 +184,10 @@
         margin-bottom: 16px;
     }
 
+    .none1-pc{
+        margin-top: 24px;
+    }
+
     .content7-right{
         margin: 0;
     }
@@ -1647,6 +1651,10 @@
 
     .slide-none1-img{
         width: 90%!important;
+    }
+
+    .none1-pc{
+        margin-top: 24px;
     }
 
 }
