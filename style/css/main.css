@@ -12,7 +12,7 @@ p{
 }
 
 .figma{
-    max-width: 1600px;
+    width: 1600px;
     overflow: hidden;
     background: #fff;
 }
@@ -251,8 +251,8 @@ img{
 }
 
 .slider4{
-    width: 30vw;
-    height: 30vw;
+    width: 35%;
+    height: 70%;
     position: absolute;
     right: 16%;
     top: 50%;
@@ -991,6 +991,10 @@ img{
 .content-detail-face img{
     width: auto;
     height:auto;
+}
+
+.content-detail-face img:hover{
+    filter: grayscale(100%);
 }
 
 .content-detail-face p{
