@@ -7,6 +7,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+p{
+    margin-bottom: 0!important;
+}
+
 .figma{
     max-width: 1600px;
     overflow: hidden;
@@ -14,7 +18,8 @@
 }
 
 .swiper{
-    margin-top: 50px;
+    margin-top: 43px;
+    padding-left: 3px;
 }
 
 img{
@@ -74,6 +79,7 @@ img{
 
 .header-hover:hover > a{
     color: #81C8C2;
+    text-decoration: none;
 
 }
 
@@ -291,7 +297,7 @@ img{
 
 .slider9{
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 32px;
     width: 100%;    
     position: relative;
 }
@@ -349,7 +355,7 @@ img{
     line-height: 24px;
     color: #FFFFFF;
     border: 0.2px solid #FFFFFF;
-    margin-top: 40px;
+    margin-top: 51px;
 }
 
 
@@ -432,7 +438,7 @@ img{
 }
 
 .change-top30{
-    margin-top: 30px;
+    margin-top: 34px;
 }
 
 .content1-top{
@@ -459,6 +465,7 @@ img{
 
 .content1{
     margin-top: 134px;
+    margin-bottom: 100px;
 }
 
 
@@ -589,7 +596,7 @@ img{
     right: 12px;
     color: #FFFFFF;
     background: #FF594F;
-    padding: 4px 12px;
+    padding: 3px 13px;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
@@ -634,7 +641,7 @@ img{
 }
 
 .name-glass p{
-    font-size: 14px;
+    font-size: 16px;
     line-height: 30px;
     font-weight: 400;
 }
@@ -651,11 +658,13 @@ img{
     color: #FF594F;
     line-height: 20px;
     padding-right: 8px;
+    font-weight: 400;
 }
 
 .price-glass p:last-child{
     font-size: 14px;
-    line-height:20px;
+    font-weight: 400;
+    line-height:17px;
     text-decoration: line-through;
     color: rgba(0, 0, 0, 0.35);
 }
@@ -667,8 +676,8 @@ img{
 
 .hinh-tron{
     display: inline-block;
-    width: 15px;
-    height: 15px;
+    width: 14px;
+    height: 14px;
     margin-top: 5px;
     border-radius: 50%;
     cursor: pointer;
@@ -845,7 +854,7 @@ img{
 }
 
 .product2{
-    margin: 0 40px;
+    margin: 0 32px;
 }
 
 .product1 p, .product2 p, .product3 p{
@@ -853,8 +862,17 @@ img{
 }
 
 .content3{
-    margin-top: 121px;
+    margin-top: 120px;
     background: url("../img/Rectangle\ 129.png") no-repeat center;
+}
+
+.chang-discount{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 4px 19px;
+    margin-right: 12px;
+    margin-top: 12px;
 }
 
 .product-best{
@@ -864,6 +882,7 @@ img{
 
 .change-new-color{
     color: #fff;
+    margin-bottom: 4px;
 }
 
 .change-menu{
@@ -899,7 +918,7 @@ img{
 }
 
 .change-price{
-    margin-bottom: 71px;
+    margin-bottom: 77px;
 }
 
 .content4{
@@ -1004,7 +1023,7 @@ img{
 .content5-title p:last-child{
     width: 487px;
     font-weight: 600;
-    font-size: 34px;
+    font-size: 35px;
     line-height: 52px;
     margin-top: 10px;
     text-align: center;
@@ -1107,9 +1126,7 @@ img{
     overflow: hidden;
 }
 
-.content7-img img:hover{
-    transform: scale(1.2)
-}
+
 
 .content7-left{
     width: 50%;
@@ -1120,17 +1137,25 @@ img{
     display: flex;
 }
 
+.content-right-top .change-p16{
+    margin-right: 13px;
+}
+
+.change-content-right{
+    margin-bottom: 30px;
+}
+
 .content7-right, .content-right-top{
     width: 50%;
 }
 
 .content7-right{
-    margin-left: 30px;
+    margin-left: 22px;
 }
 
 .content7-right img{
-    padding: 14px;
-    margin: 13px 0;
+    padding: 0 8px;
+    margin: 0;
 }
 
 .item8{
@@ -1184,8 +1209,19 @@ img{
     margin-left: 7px;
 }
 
+.change-pagination{
+    display:inline-block!important;
+    margin: 40px 0 95px!important;
+}
+
 .content8-user img, .contentent8-message img{
-    width:auto;
+    width: 20px !important;;
+    height: 20px !important;
+}
+
+.change-pagination1{
+    display: inline-block!important;
+    margin: 44px 0 104px !important;
 }
 
 .content8-user p{
@@ -1349,6 +1385,8 @@ img{
     line-height: 27px;
     font-weight: 700;
     padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .question1 p{
@@ -1383,7 +1421,7 @@ img{
 
 .content12-detail p{
     margin-left: 13px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     font-weight: 400;
 }
@@ -1667,7 +1705,7 @@ img{
     text-align: center;
     align-items: center;
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 21px;
     font-weight: 400;
     padding: 10px 12px;
@@ -1717,11 +1755,29 @@ img{
 
 .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
     margin: 20px;
+    display: none;
 }
 
 .swiper-button-next, .swiper-button-prev{
-    top: 25%;
-    right: -8px;
+    top: 30%;
+    right: -13px;
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.change-top{
+    top: 19%;
+    display: none;
+}
+
+.change-top1{
+    top: 27%!important;
+}
+
+.change-pagination{
+    display: inline-block!important;
 }
 
 .change-next{
@@ -1740,6 +1796,72 @@ img{
     font-size: 20px;
     color: #000;
 }
+
+/* .question-title{
+    display: none;
+} */
+
+.active, .question-descreption:hover {
+    background-color: #fff;
+  }
+  
+  .question-descreption:after {
+    content: '\002B';
+    font-weight: bold;
+    float: right;
+    color: rgba(0, 0, 0, 0.2);;
+    margin-left: 5px;
+    font-size: 34px;
+    cursor: pointer;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+
+  .content{
+    max-height: 0;
+    overflow: hidden;
+  }
+
+  .header-mobile{
+    background: #f6f6f6;
+    width: 100%;
+    /* position: fixed;
+    top: 78px;
+    left: 0;
+    right: 0;
+    z-index: 1; */
+  }
+
+  .header-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .header-list li{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-list li a{
+    text-decoration: none;
+    outline: none;
+    color: #444;
+    font-weight: 700;
+  }
+
+  .hide{
+    display: none;
+  }
+
+
+
 
 
 
