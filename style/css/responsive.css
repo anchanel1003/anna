@@ -9,7 +9,7 @@
         display: none;
     }
 
-    .none-pc, .none1-pc{
+    .none-pc{
         display: none!important;
     }
 
@@ -22,6 +22,7 @@
     .content3{
         width: 100%;
         background-size: 100% 100%;
+        align-items: center;
     }
 
     .mySwiper2{
@@ -42,6 +43,30 @@
     .active{
         display: block!important;
     }
+
+    .slide-none1-img .content-item{
+        margin-right: 31px;
+      }
+
+      .none1-pc{
+        margin-top: 47px;
+        width: 1300px;
+      }
+
+      .slick-prev{
+        left: -17px!important;
+        z-index: 9999;
+        top: 30%!important;
+      }
+
+      .slick-next:before, .slick-prev:before{
+        font-size: 33px!important;
+      }
+
+      .slick-next {
+        right: 26px!important;
+        top: 30%!important;
+      }
 
 }
 
