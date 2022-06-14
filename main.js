@@ -12,3 +12,31 @@ modal.addEventListener('click', function(e){
         tonggleModal()
     }
 })
+
+
+
+
+
+const buttons = document.querySelectorAll(".product-glass");
+const contents = document.querySelectorAll(".content2-list .swiper-item");
+
+contents.forEach((e, i) => {
+  if (i > 0) e.classList.add("hide");
+});
+
+function deactivateText(arg) {
+  buttons.forEach((e, i) => {
+    contents[i].classList.add("hide");
+  });
+  activatetext(arg);
+}
+
+function activatetext(arg) {
+  const contentData = arg.dataset.content;
+  contents[contentData].classList.toggle("hide");
+}
+
+
+
+
+

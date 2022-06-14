@@ -13,6 +13,36 @@
         display: none!important;
     }
 
+    .content1, .content2, .content5, .content7, .content8, .content9, .content10, .content11, .content12, .footer{
+        /* display: unset; */
+        width: 1300px;
+        padding: 0;
+    }
+
+    .content3{
+        width: 100%;
+        background-size: 100% 100%;
+    }
+
+    .mySwiper2{
+        width: 1300px!important;
+    }
+
+    .contain-body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .figma{
+        width: 100%;
+    }
+
+    .active{
+        display: block!important;
+    }
+
 }
 
 /* Tablet */
@@ -1311,7 +1341,7 @@
     }
 
     .content12-detail p{
-        font-size: 9px;
+        font-size: 12px;
         margin-left: 13px!important;
     }
 
@@ -1513,7 +1543,10 @@
     
     .types-of-glass{
         justify-content: space-around;
-        margin: 42px 0 24px;
+        margin: 0 0 24px;
+    }
+    .content-new{
+        margin-top: 6px;
     }
 
     .content-header-title p{
