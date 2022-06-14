@@ -152,8 +152,8 @@ img{
 }
 
 .slider4{
-    width: 30%;
-    height: 70%;
+    width: 28vw;
+    height: 28vw;
     position: absolute;
     right: 16%;
     top: 50%;
@@ -748,7 +748,7 @@ img{
     
 }
 
-.product1:hover, .product2:hover, .product3:hover{
+.product-glass:hover, .active1{
     background: #81C8C2;
     cursor: pointer;
     color: #fff;
@@ -1666,7 +1666,7 @@ img{
 
 .swiper-button-next, .swiper-button-prev{
     top: 30%;
-    right: -13px;
+    right: -12px;
     width: 35px;
     height: 35px;
     background-color: #fff;
@@ -1691,7 +1691,7 @@ img{
 }
 
 .swiper-button-prev{
-    left: -14px;
+    left: -12px;
 }
 
 .contain-body{

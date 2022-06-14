@@ -26,6 +26,9 @@ contents.forEach((e, i) => {
 
 function deactivateText(arg) {
   buttons.forEach((e, i) => {
+    if (e.classList.contains("active1")) {
+      e.classList.toggle("active1");
+    }
     contents[i].classList.add("hide");
   });
   activatetext(arg);
@@ -33,6 +36,7 @@ function deactivateText(arg) {
 
 function activatetext(arg) {
   const contentData = arg.dataset.content;
+  arg.classList.toggle("active1");
   contents[contentData].classList.toggle("hide");
 }
 
